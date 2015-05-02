@@ -1,0 +1,9 @@
+{
+	"widgets" : {
+		"recentPosts" : {
+			"title" : "Recent posts",
+			"number" : 5,
+			"displayDate" : true
+		}
+	}
+}

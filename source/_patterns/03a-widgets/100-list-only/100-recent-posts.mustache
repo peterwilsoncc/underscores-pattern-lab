@@ -1,0 +1,14 @@
+{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_recent_entries {{{ themeSettings.widgets.beforeWidget.suffix }}}
+{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.recentPosts.title }}{{{ themeSettings.widgets.afterTitle }}}
+<ul>
+	{{# listItems.five }}
+	<li>
+		<a href="#">{{ headline.short }}</a>
+		{{# widgets.recentPosts.displayDate }}
+		<span class="post-date">{{ month.long }} {{ day.short }}, {{ year.long }}</span>
+		{{/ widgets.recentPosts.displayDate }}
+	</li>
+	{{/ listItems.five }}
+</ul>
+
+{{{ themeSettings.widgets.afterWidget }}}
