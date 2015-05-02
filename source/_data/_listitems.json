@@ -1,5 +1,8 @@
 {
 	"1": {
+		"random" : {
+			"tf" : true
+		},
 		"title": "Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.",
 		"img": {
 			"avatar": {
@@ -73,6 +76,9 @@
 		"seconds": "31"
 	},
 	"2": {
+		"random" : {
+			"tf" : false
+		},
 		"title": "Veggies sunt bona vobis, proinde vos postulo",
 		"img": {
 			"avatar": {
@@ -146,6 +152,9 @@
 		"seconds": "31"
 	},
 	"3": {
+		"random" : {
+			"tf" : true
+		},
 		"title": "Bacon ipsum dolor sit amet turducken strip steak beef ribs shank",
 		"img": {
 			"avatar": {
@@ -219,6 +228,9 @@
 		"seconds": "11"
 	},
 	"4": {
+		"random" : {
+			"tf" : false
+		},
 		"title": "Whatever swag accusamus occupy, gentrify butcher tote bag",
 		"img": {
 			"avatar": {
@@ -292,6 +304,9 @@
 		"seconds": "52"
 	},
 	"5": {
+		"random" : {
+			"tf" : false
+		},
 		"title": "Marshall McLuhan Colbert bump backpack journalist vast wasteland Romenesko CPM",
 		"img": {
 			"avatar": {
@@ -365,6 +380,9 @@
 		"seconds": "24"
 	},
 	"6": {
+		"random" : {
+			"tf" : true
+		},
 		"title": "Thunder, thunder, thundercats, Ho!",
 		"img": {
 			"avatar": {
@@ -438,6 +456,9 @@
 		"seconds": "33"
 	},
 	"7": {
+		"random" : {
+			"tf" : false
+		},
 		"title": "Yeah, I like animals better than people sometimes",
 		"img": {
 			"avatar": {
@@ -511,6 +532,9 @@
 		"seconds": "47"
 	},
 	"8": {
+		"random" : {
+			"tf" : true
+		},
 		"title": "Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo",
 		"img": {
 			"avatar": {
@@ -584,6 +608,9 @@
 		"seconds": "21"
 	},
 	"9": {
+		"random" : {
+			"tf" : false
+		},
 		"title": "Rebel Mission to Ord Mantell",
 		"img": {
 			"avatar": {
@@ -657,6 +684,9 @@
 		"seconds": "37"
 	},
 	"10": {
+		"random" : {
+			"tf" : true
+		},
 		"title": "Help, help, I'm being repressed!",
 		"img": {
 			"avatar": {
@@ -730,6 +760,9 @@
 		"second": "19"
 	},
 	"11": {
+		"random" : {
+			"tf" : false
+		},
 		"title": "Danish danish candy canes bonbon cheesecake danish marzipan",
 		"img": {
 			"avatar": {
@@ -803,6 +836,9 @@
 		"seconds": "12"
 	},
 	"12": {
+		"random" : {
+			"tf" : true
+		},
 		"title": "Cottage cheese brie lancashire. Boursin when the cheese comes out.",
 		"img": {
 			"avatar": {
