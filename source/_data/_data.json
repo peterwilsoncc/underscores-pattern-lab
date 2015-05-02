@@ -18,6 +18,9 @@
 			"title" : "Recent posts",
 			"number" : 5,
 			"displayDate" : false
+		},
+		"recentComments" : {
+			"title" : "Recent comments"
 		}
 	},
 	"img": {

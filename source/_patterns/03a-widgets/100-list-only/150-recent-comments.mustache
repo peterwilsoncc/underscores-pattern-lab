@@ -1,0 +1,13 @@
+{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_recent_comments {{{ themeSettings.widgets.beforeWidget.suffix }}}
+{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.recentComments.title }}{{{ themeSettings.widgets.afterTitle }}}
+<ul id="recentcomments">
+	{{# listItems.five }}
+	<li class="recentcomments">
+		<span class="comment-author-link">{{# random.tf }}<a href="#" rel="external nofollow">{{/ random.tf }}{{ name.first }} {{ name.last }}{{# random.tf }}</a>{{/ random.tf }}</span>
+		on
+		<a href="#">{{ headline.short }}</a>
+	</li>
+	{{/ listItems.five }}
+</ul>
+
+{{{ themeSettings.widgets.afterWidget }}}
