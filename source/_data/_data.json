@@ -31,6 +31,10 @@
 			"entriesRss" : "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>",
 			"commentsRss" : "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>",
 			"wordpressDotOrg" : "WordPress.org"
+		},
+		"textWidget" : {
+			"title" : "Text Widget",
+			"text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
 		}
 	},
 	"img": {
