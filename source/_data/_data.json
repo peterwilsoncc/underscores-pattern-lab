@@ -21,6 +21,16 @@
 		},
 		"recentComments" : {
 			"title" : "Recent comments"
+		},
+		"meta" : {
+			"title" : "Meta",
+			"loggedIn" : false,
+			"siteAdmin" : "Site Admin",
+			"logIn" : "Log in",
+			"logOut" : "Log out",
+			"entriesRss" : "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>",
+			"commentsRss" : "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>",
+			"wordpressDotOrg" : "WordPress.org"
 		}
 	},
 	"img": {
