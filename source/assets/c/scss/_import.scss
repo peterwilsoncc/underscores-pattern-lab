@@ -1,0 +1,52 @@
+// /* **************************************** *\
+//  * SCSS config & setup files                *
+// \* **************************************** */
+
+@import "10-config/defaults";
+@import "10-config/variables";
+@import "10-config/mixins";
+
+
+// /* **************************************** *\
+//  * HTML base elements                       *
+// \* **************************************** */
+// /*
+//  * Basic styles for HTML elements
+//  */
+
+
+
+// /* **************************************** *\
+//  * Components                               *
+// \* **************************************** */
+// /*
+//  * Various components used throughout the site. The files in this
+//  * directory are named for the component.
+//  *
+//  * Empty files are used to reserve name spaces, eg util.
+//  */
+
+
+// /* **************************************** *\
+//  * Utilities                                *
+// \* **************************************** */
+// /*
+//  * Utility classes. The filesin this directory are named
+//  * for the utility. 
+//  *
+//  * Utility classes are prefixed by util-
+//  */
+
+
+// /* **************************************** *\
+//  * Shame files                              *
+// \* **************************************** */
+// /*
+//  * Files that don't fit OOCSS format. Either because lazy
+//  * or because it's in WP and I can filter, or can't be bothered
+//  * filtering.
+//  */
+
+@import "50-shame/lazy";      // Should probably fix... one day
+@import "50-shame/widgets";   // WordPress widgets
+@import "50-shame/wordpress"; // Other WP Stuff
