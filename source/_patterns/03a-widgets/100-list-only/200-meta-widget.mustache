@@ -7,6 +7,9 @@
 	{{/ widgets.meta.loggedIn }}
 	
 	{{^ widgets.meta.loggedIn }}
+		{{# widgets.meta.allowSignup }}
+			<li><a href="#">{{ widgets.meta.register }}</a></li>
+		{{/ widgets.meta.allowSignup }}
 		<li><a href="#">{{ widgets.meta.logIn }}</a></li>
 	{{/ widgets.meta.loggedIn }}
 

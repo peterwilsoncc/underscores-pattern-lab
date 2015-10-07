@@ -1,0 +1,16 @@
+{
+	"widgets" : {
+		"meta" : {
+			"title" : "Meta",
+			"loggedIn" : false,
+			"allowSignup" : true,
+			"siteAdmin" : "Site Admin",
+			"register" : "Register",
+			"logIn" : "Log in",
+			"logOut" : "Log out",
+			"entriesRss" : "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>",
+			"commentsRss" : "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>",
+			"wordpressDotOrg" : "WordPress.org"
+		}
+	}
+}

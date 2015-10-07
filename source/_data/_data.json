@@ -25,7 +25,9 @@
 		"meta" : {
 			"title" : "Meta",
 			"loggedIn" : false,
+			"allowSignup" : false,
 			"siteAdmin" : "Site Admin",
+			"register" : "Register",
 			"logIn" : "Log in",
 			"logOut" : "Log out",
 			"entriesRss" : "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>",
