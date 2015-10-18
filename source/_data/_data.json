@@ -41,6 +41,12 @@
 		"tagCloud" : {
 			"title" : "Tag cloud",
 			"seperator" : ""
+		},
+		"category" : {
+			"title" : "Categories",
+			"asDropdown" : false,
+			"showPostCount" : false,
+			"showHierarchy" : false
 		}
 	},
 	"img": {

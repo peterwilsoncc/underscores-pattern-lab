@@ -150,8 +150,8 @@
 			"ampm": "pm"
 		},
 		"minute": {
-			"long": "20",
-			"short": "20"
+			"long": "21",
+			"short": "21"
 		},
 		"seconds": "31"
 	},
@@ -462,8 +462,8 @@
 			"ampm": "pm"
 		},
 		"minute": {
-			"long": "37",
-			"short": "37"
+			"long": "38",
+			"short": "38"
 		},
 		"seconds": "33"
 	},
