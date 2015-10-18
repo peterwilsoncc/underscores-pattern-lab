@@ -1,0 +1,52 @@
+{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_calendar {{{ themeSettings.widgets.beforeWidget.suffix }}}<!--
+
+{{# widgets.calendar.title }}
+-->{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.calendar.title }}{{{ themeSettings.widgets.afterTitle }}}<!--
+{{/ widgets.calendar.title }}
+
+--><div id="calendar_wrap"><!--
+	--><table id="wp-calendar">
+{{# listItems.one }}
+	<caption>{{ month.long }} {{ year.long }}</caption>
+{{/ listItems.one }}
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="{{ url }}">&laquo; Dec</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next"><a href="{{ url }}">Mar &raquo;</a></td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="1" class="pad">&nbsp;</td><td><a href="{{ url }}">1</a></td><td><a href="{{ url }}">2</a></td><td><a href="{{ url }}">3</a></td><td><a href="{{ url }}">4</a></td><td><a href="{{ url }}">5</a></td><td><a href="{{ url }}">6</a></td>
+	</tr>
+	<tr>
+		<td><a href="{{ url }}">7</a></td><td><a href="{{ url }}">8</a></td><td><a href="{{ url }}">9</a></td><td><a href="{{ url }}">10</a></td><td><a href="{{ url }}">11</a></td><td>12</td><td>13</td>
+	</tr>
+	<tr>
+		<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+	</tr>
+	<tr>
+		<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+	</tr>
+	<tr>
+		<td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="3">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div><!--
+
+-->{{{ themeSettings.widgets.afterWidget }}}

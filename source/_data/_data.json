@@ -47,6 +47,9 @@
 			"asDropdown" : false,
 			"showPostCount" : false,
 			"showHierarchy" : false
+		},
+		"calendar" : {
+			"title" : false
 		}
 	},
 	"img": {
