@@ -75,6 +75,12 @@
 		"search" : {
 			"title" : false
 		},
+		"rss" : {
+			"title" : "RSS Widget",
+			"showItemContent" : false,
+			"showItemAuthor"  : false,
+			"showItemDate"    : false
+		},
 		"calendar" : {
 			"title" : false
 		}
