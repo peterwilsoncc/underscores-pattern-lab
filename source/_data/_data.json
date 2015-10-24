@@ -66,6 +66,9 @@
 				{"m" : "November 2012", "c" :"8"}
 			]
 		},
+		"search" : {
+			"title" : false
+		},
 		"calendar" : {
 			"title" : false
 		}
