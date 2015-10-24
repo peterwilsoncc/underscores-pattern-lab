@@ -48,6 +48,17 @@
 			"showPostCount" : false,
 			"showHierarchy" : false
 		},
+		"category" : {
+			"title" : "Categories",
+			"asDropdown" : false,
+			"showPostCount" : false,
+			"showHierarchy" : false
+		},
+		"date" : {
+			"title" : "Archives",
+			"asDropdown" : false,
+			"showPostCount" : false
+		},
 		"calendar" : {
 			"title" : false
 		}
