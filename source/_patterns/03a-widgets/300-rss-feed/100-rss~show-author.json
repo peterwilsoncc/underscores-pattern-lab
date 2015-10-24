@@ -1,0 +1,10 @@
+{
+	"widgets" : {
+		"rss" : {
+			"title" : "RSS Widget",
+			"showItemContent" : false,
+			"showItemAuthor"  : true,
+			"showItemDate"    : false
+		}
+	}
+}
