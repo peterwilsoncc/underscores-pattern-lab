@@ -69,12 +69,53 @@
 		"pages" : {
 			"title" : "Pages"
 		},
+		"menu" : {
+			"title" : false
+		},
 		"search" : {
 			"title" : false
 		},
 		"calendar" : {
 			"title" : false
 		}
+	},
+	"sampleMenu" : {
+		"containerClass" : false,
+		"containerId"    : "menu-MENU-SLUG-container",
+		"listClass"      : "menu",
+		"listId"         : "menu-LIST-SLUG",
+		"items" : [
+			{
+				"type"   : "post_type",
+				"object" : "page",
+				"id"     : 1,
+				"title"  : "About",
+				"currentParent" : true,
+				"currentAncestor" : true,
+				"currentItem" : false,
+				"hasChildren"  : {
+					"items" : [
+						{
+							"type"   : "post_type",
+							"object" : "post",
+							"id"     : 2,
+							"title"  : "Pens",
+							"currentParent" : false,
+							"currentAncestor" : false,
+							"currentItem" : true,
+							"hasChildren" : false
+						}
+					]
+				}
+			},
+			{
+				"type"   : "taxonomy",
+				"object" : "category",
+				"id"     : 3,
+				"title"  : "Category",
+				"hasChildren"  : false
+			}
+		]
 	},
 	"img": {
 		"landscape-4x3": {

@@ -1,0 +1,13 @@
+<div
+	{{# sampleMenu.containerId }} id="{{ sampleMenu.containerId }}-menu" {{/ sampleMenu.containerId }}
+	{{# sampleMenu.containerClass }} class="{{ sampleMenu.containerClass }}-menu" {{/ sampleMenu.containerClass }}
+><!--
+	--><ul
+		{{# sampleMenu.listId }} id="{{ sampleMenu.listId }}" {{/ sampleMenu.listId }}
+		{{# sampleMenu.listClass }} class="{{ sampleMenu.listClass }}" {{/ sampleMenu.listClass }}
+	><!--
+		{{# sampleMenu.items }}
+			{{> widgets-menu-item-template }}
+		{{/ sampleMenu.items }}
+	--></ul><!--
+--></div>
