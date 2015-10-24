@@ -1,0 +1,31 @@
+{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_archive {{{ themeSettings.widgets.beforeWidget.suffix }}}
+{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.date.title }}{{{ themeSettings.widgets.afterTitle }}}
+
+{{# widgets.date.asDropdown }}
+<label class="screen-reader-text" for="archives-dropdown">
+	{{ widgets.date.title }}
+</label>
+	<select name='archives-dropdown' id='archives-dropdown' onchange="">
+	{{# widgets.date.months }}
+	<option value="{{ url }}">
+		{{ m }}
+		{{# widgets.date.showPostCount }}&nbsp;({{ c }}){{/ widgets.date.showPostCount }}
+	</option>
+	{{/ widgets.date.months }}
+</select>
+{{/ widgets.date.asDropdown }}
+
+{{^ widgets.date.asDropdown }}
+<ul>
+	{{# widgets.date.months }}
+	<li><a href="{{ url }}">{{ m }}</a><!--
+		{{# widgets.date.showPostCount }}
+		-->&nbsp;({{ c }})<!--
+		{{/ widgets.date.showPostCount }}
+	--></li>
+	{{/ widgets.date.months }}
+</ul>
+{{/ widgets.date.asDropdown }}
+
+
+{{{ themeSettings.widgets.afterWidget }}}

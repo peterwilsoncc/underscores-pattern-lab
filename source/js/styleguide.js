@@ -34,6 +34,19 @@ var PWCC = window.PWCC || {};
 	} );
 
 
+	var $dateWidgets = $( '.widget_archive' );
+
+	$dateWidgets.each( function() {
+		var $widget = $( this );
+		var $label = $widget.children( 'label' );
+		var $select = $widget.children( 'select' );
+		var id = 'archives-dropdown-' + guid();
+
+		$label.attr( 'for', id );
+		$select.attr( 'id', id );
+	} );
+
+
 	function guid(){
 		var characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split( '' );
 		var charactersLength = characters.length;
