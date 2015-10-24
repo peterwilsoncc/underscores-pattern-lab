@@ -66,6 +66,9 @@
 				{"m" : "November 2012", "c" :"8"}
 			]
 		},
+		"pages" : {
+			"title" : "Pages"
+		},
 		"search" : {
 			"title" : false
 		},
