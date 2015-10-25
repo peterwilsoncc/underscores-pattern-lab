@@ -1,0 +1,8 @@
+{
+	"widgets" : {
+		"textWidget" : {
+			"title" : false,
+			"text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>\n<p>Sed do eiusmod tempor incididunt ut labore et dolore."
+		}
+	}
+}

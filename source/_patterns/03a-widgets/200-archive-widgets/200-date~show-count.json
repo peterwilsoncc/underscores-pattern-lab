@@ -1,0 +1,16 @@
+{
+	"widgets" : {
+		"date" : {
+			"title" : "Archives",
+			"asDropdown" : false,
+			"showPostCount" : true,
+			"months" : [
+				{"m" : "March 2013", "c" :"7"},
+				{"m" : "February 2013", "c" :"3"},
+				{"m" : "January 2013", "c" :"9"},
+				{"m" : "December 2012", "c" :"1"},
+				{"m" : "November 2012", "c" :"8"}
+			]
+		}
+	}
+}

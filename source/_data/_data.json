@@ -25,7 +25,9 @@
 		"meta" : {
 			"title" : "Meta",
 			"loggedIn" : false,
+			"allowSignup" : false,
 			"siteAdmin" : "Site Admin",
+			"register" : "Register",
 			"logIn" : "Log in",
 			"logOut" : "Log out",
 			"entriesRss" : "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>",
@@ -35,7 +37,91 @@
 		"textWidget" : {
 			"title" : "Text Widget",
 			"text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+		},
+		"tagCloud" : {
+			"title" : "Tag cloud",
+			"seperator" : " "
+		},
+		"category" : {
+			"title" : "Categories",
+			"asDropdown" : false,
+			"showPostCount" : false,
+			"showHierarchy" : false
+		},
+		"category" : {
+			"title" : "Categories",
+			"asDropdown" : false,
+			"showPostCount" : false,
+			"showHierarchy" : false
+		},
+		"date" : {
+			"title" : "Archives",
+			"asDropdown" : false,
+			"showPostCount" : false,
+			"months" : [
+				{"m" : "March 2013", "c" :"7"},
+				{"m" : "February 2013", "c" :"3"},
+				{"m" : "January 2013", "c" :"9"},
+				{"m" : "December 2012", "c" :"1"},
+				{"m" : "November 2012", "c" :"8"}
+			]
+		},
+		"pages" : {
+			"title" : "Pages"
+		},
+		"menu" : {
+			"title" : false
+		},
+		"search" : {
+			"title" : false
+		},
+		"rss" : {
+			"title" : "RSS Widget",
+			"showItemContent" : false,
+			"showItemAuthor"  : false,
+			"showItemDate"    : false
+		},
+		"calendar" : {
+			"title" : false
 		}
+	},
+	"sampleMenu" : {
+		"containerClass" : false,
+		"containerId"    : "menu-MENU-SLUG-container",
+		"listClass"      : "menu",
+		"listId"         : "menu-LIST-SLUG",
+		"items" : [
+			{
+				"type"   : "post_type",
+				"object" : "page",
+				"id"     : 1,
+				"title"  : "About",
+				"currentParent" : true,
+				"currentAncestor" : true,
+				"currentItem" : false,
+				"hasChildren"  : {
+					"items" : [
+						{
+							"type"   : "post_type",
+							"object" : "post",
+							"id"     : 2,
+							"title"  : "Pens",
+							"currentParent" : false,
+							"currentAncestor" : false,
+							"currentItem" : true,
+							"hasChildren" : false
+						}
+					]
+				}
+			},
+			{
+				"type"   : "taxonomy",
+				"object" : "category",
+				"id"     : 3,
+				"title"  : "Category",
+				"hasChildren"  : false
+			}
+		]
 	},
 	"img": {
 		"landscape-4x3": {

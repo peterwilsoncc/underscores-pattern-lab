@@ -1,0 +1,30 @@
+{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_rss {{{ themeSettings.widgets.beforeWidget.suffix }}}<!--
+
+-->{{{ themeSettings.widgets.beforeTitle }}}<!--
+	--><a href="{{ url }}" class="rsswidget"><img
+			class="rss-widget-icon"
+			style="border:0"
+			width="14" height="14"
+			alt="RSS"
+			src="../../assets/i/styleguide/rss.png"></a>
+		<a href="{{ url }}" class="rsswidget">"{{ widgets.rss.title }}"</a><!--
+-->{{{ themeSettings.widgets.afterTitle }}}<!--
+
+--><ul><!--
+	{{# listItems.two }}
+			--><li><a class="rsswidget" href="{{ url }}">{{ headline.short }}</a><!--
+			{{# widgets.rss.showItemDate }}
+			-->
+			<span class="rss-date">{{ month.long }} {{ day.short }}, {{ year.long }}</span><!--
+			{{/ widgets.rss.showItemDate }}
+			{{# widgets.rss.showItemContent }}
+			--><div class="rssSummary">{{ excerpt.long }}</div><!--
+			{{/ widgets.rss.showItemContent }}
+			{{# widgets.rss.showItemAuthor }}
+			-->
+			<cite>{{ name.first }} {{ name.last }}</cite><!--
+			{{/ widgets.rss.showItemAuthor }}
+			--></li><!--
+	{{/ listItems.two }}
+--></ul><!--
+-->{{{ themeSettings.widgets.afterWidget }}}

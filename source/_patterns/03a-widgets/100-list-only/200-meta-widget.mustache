@@ -1,12 +1,15 @@
-{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_meta {{{ themeSettings.widgets.beforeWidget.suffix }}}
-{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.meta.title }}{{{ themeSettings.widgets.afterTitle }}}
+{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_meta {{{ themeSettings.widgets.beforeWidget.suffix }}}<!--
+-->{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.meta.title }}{{{ themeSettings.widgets.afterTitle }}}
 <ul>
 	{{# widgets.meta.loggedIn }}
 		<li><a href="#">{{ widgets.meta.siteAdmin }}</a></li>
 		<li><a href="#">{{ widgets.meta.logOut }}</a></li>
 	{{/ widgets.meta.loggedIn }}
-	
+
 	{{^ widgets.meta.loggedIn }}
+		{{# widgets.meta.allowSignup }}
+			<li><a href="#">{{ widgets.meta.register }}</a></li>
+		{{/ widgets.meta.allowSignup }}
 		<li><a href="#">{{ widgets.meta.logIn }}</a></li>
 	{{/ widgets.meta.loggedIn }}
 

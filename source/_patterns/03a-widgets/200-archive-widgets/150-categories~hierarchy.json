@@ -1,0 +1,10 @@
+{
+	"widgets" : {
+		"category" : {
+			"title" : "Categories",
+			"asDropdown" : false,
+			"showPostCount" : false,
+			"showHierarchy" : true
+		}
+	}
+}

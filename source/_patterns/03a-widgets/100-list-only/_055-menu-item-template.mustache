@@ -1,0 +1,28 @@
+--><li
+	class="
+		menu-item
+		menu-item-type-{{ type }}
+		menu-item-object-{{ object }}
+		menu-item-{{ id }}
+
+		{{# hasChildren }} menu-item-has-children {{/ hasChildren }}
+		{{# currentItem }} current-menu-item {{/ currentItem }}
+
+		{{# currentParent }} current-menu-parent {{/ currentParent }}
+		{{# currentAncestor }} current-menu-ancestor {{/ currentAncestor }}
+	"
+
+><a href="{{ url }}">{{ title }}</a><!--
+		{{# hasChildren }}
+			-->
+			<ul class="sub-menu">
+				<!--
+				{{# hasChildren.items }}
+					{{> widgets-menu-item-template }}
+				{{/ hasChildren.items }}
+			--></ul>
+				<!-- //.sub-menu -->
+			<!--
+		{{/ hasChildren }}
+
+--></li><!--
