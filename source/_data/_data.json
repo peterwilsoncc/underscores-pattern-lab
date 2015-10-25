@@ -40,7 +40,7 @@
 		},
 		"tagCloud" : {
 			"title" : "Tag cloud",
-			"seperator" : ""
+			"seperator" : " "
 		},
 		"category" : {
 			"title" : "Categories",

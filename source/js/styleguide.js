@@ -4,7 +4,7 @@ var PWCC = window.PWCC || {};
 
 	var $ = window.jQuery;
 
-	var $tagClouds = $( '.widget_tag_cloud > .tagcloud' );
+	var $tagClouds = $( '.tagcloud[data-styleguide-seperator]' );
 
 	$tagClouds.each( function() {
 		var $links = $( this ).find( 'a' ),

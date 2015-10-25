@@ -1,5 +1,5 @@
-{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_categories {{{ themeSettings.widgets.beforeWidget.suffix }}}
-{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.category.title }}{{{ themeSettings.widgets.afterTitle }}}<!--
+{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_categories {{{ themeSettings.widgets.beforeWidget.suffix }}}<!--
+-->{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.category.title }}{{{ themeSettings.widgets.afterTitle }}}<!--
 
 {{# widgets.category.asDropdown }}
 --><label class="screen-reader-text" for="cat">
@@ -7,11 +7,11 @@
 </label><!--
 --><select name='cat' id='cat' class='postform' >
 	{{# listItems.five }}
-	<option value="{{ minute.short }}" class="level-0">{{ excerpt.tiny }}{{# widgets.category.showPostCount }}&nbsp;({{ minute.short }}){{/ widgets.category.showPostCount }}</option>
+	<option value="{{ minute.short }}" class="level-0">{{ excerpt.tiny }}{{# widgets.category.showPostCount }}&nbsp;&nbsp;({{ minute.short }}){{/ widgets.category.showPostCount }}</option>
 		{{# widgets.category.showHierarchy }}
 		{{# random.tf }}
 			{{# listItems.two }}
-			<option value="{{ minute.short }}" class="level-1">&nbsp;&nbsp;{{ excerpt.tiny }}{{# widgets.category.showPostCount }}&nbsp;({{ minute.short }}){{/ widgets.category.showPostCount }}</option>
+			<option value="{{ minute.short }}" class="level-1">&nbsp;&nbsp;&nbsp;{{ excerpt.tiny }}{{# widgets.category.showPostCount }}&nbsp;&nbsp;({{ minute.short }}){{/ widgets.category.showPostCount }}</option>
 			{{/ listItems.two }}
 			{{/ random.tf }}
 		{{/ widgets.category.showHierarchy }}

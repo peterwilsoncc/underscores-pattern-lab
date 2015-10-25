@@ -1,10 +1,8 @@
-{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_archive {{{ themeSettings.widgets.beforeWidget.suffix }}}
-{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.date.title }}{{{ themeSettings.widgets.afterTitle }}}
+{{{ themeSettings.widgets.beforeWidget.prefix }}} widget_archive {{{ themeSettings.widgets.beforeWidget.suffix }}}<!--
+-->{{{ themeSettings.widgets.beforeTitle }}}{{ widgets.date.title }}{{{ themeSettings.widgets.afterTitle }}}
 
 {{# widgets.date.asDropdown }}
-<label class="screen-reader-text" for="archives-dropdown">
-	{{ widgets.date.title }}
-</label>
+<label class="screen-reader-text" for="archives-dropdown">{{ widgets.date.title }}</label>
 	<select name='archives-dropdown' id='archives-dropdown' onchange="">
 	{{# widgets.date.months }}
 	<option value="{{ url }}">
