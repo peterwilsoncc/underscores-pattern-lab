@@ -1,31 +1,3 @@
 /* **************************************** *
  * WordPress enforced class names/css       *
  * **************************************** */
-
-
-.one {
-	color: white;
-	background: white;
-}
-
-.two {
-	color: white;
-	background: white;
-}
-
-	.two_two {
-		color: white;
-		background: white;
-		margin: 1em 1em 1rem;
-		margin-bottom: 24px;
-		margin-bottom: 2rem;
-
-
-		@media ( min-width: 300em ) {
-			color: black;
-
-			* {
-				color: green;
-			}
-		}
-	}
