@@ -1,5 +1,6 @@
 .DS_Store
 public/*
+node_modules/*
 #source/*
 config.ini
 latest-change.txt

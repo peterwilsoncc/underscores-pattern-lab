@@ -1,0 +1,30 @@
+{
+  "name": "underscores-patterns",
+  "version": "1.0.0",
+  "description": "Pattern Library for Underscores",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterwilsoncc/underscores-pattern-lab.git"
+  },
+  "author": "Peter Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterwilsoncc/underscores-pattern-lab/issues"
+  },
+  "homepage": "https://github.com/peterwilsoncc/underscores-pattern-lab#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-csscomb": "^3.1.0",
+    "grunt-sass": "^1.1.0",
+    "grunt-shell": "^1.1.2"
+  }
+}

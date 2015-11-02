@@ -1,7 +1,16 @@
 {
-"version": 3,
-"mappings": "",
-"sources": [],
-"names": [],
-"file": "style.css"
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"scss/_import.scss",
+		"scss/10-config/_defaults.scss",
+		"scss/10-config/_variables.scss",
+		"scss/10-config/_mixins.scss",
+		"scss/50-shame/_lazy.scss",
+		"scss/50-shame/_widgets.scss",
+		"scss/50-shame/_wordpress.scss"
+	],
+	"mappings": "AOAA;;8CAE8C",
+	"names": []
 }
