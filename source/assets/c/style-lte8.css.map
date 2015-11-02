@@ -1,7 +1,16 @@
 {
-"version": 3,
-"mappings": "",
-"sources": [],
-"names": [],
-"file": "style-lte8.css"
+	"version": 3,
+	"file": "style-lte8.css",
+	"sources": [
+		"style-lte8.scss",
+		"scss/_import.scss",
+		"scss/10-config/_defaults.scss",
+		"scss/10-config/_variables.scss",
+		"scss/10-config/_mixins.scss",
+		"scss/50-shame/_lazy.scss",
+		"scss/50-shame/_widgets.scss",
+		"scss/50-shame/_wordpress.scss"
+	],
+	"mappings": "",
+	"names": []
 }
