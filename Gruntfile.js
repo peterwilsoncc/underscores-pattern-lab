@@ -17,10 +17,75 @@ module.exports = function(grunt) {
 		},
 
 
+		// css comb
+		csscomb : {
+			options: {
+				config: 'csscomb.json'
+			},
+			dynamic_mappings: {
+				expand: true,
+				cwd: 'source/assets/c',
+				src: ['*.min.css'],
+				dest: 'source/assets/c',
+				ext: '.min.css'
+			}
+		},
+
+
+		// grunt cssmin config
+		cssmin: {
+			styles : {
+				options : {
+					advanced : true,
+					aggressiveMerging : true,
+					compatibility : '*',
+					debug : false,
+					keepBreaks : true,
+					keepSpecialComments : '*',
+					mediaMerging : true,
+					processImport : true,
+					processImportFrom : ['all'],
+					roundingPrecision : -1
+				},
+				files: [{
+					expand: true,
+					cwd: 'source/assets/c',
+					src: ['style.css'],
+					dest: 'source/assets/c',
+					ext: '.min.css'
+				}]
+			},
+			lte8styles : {
+				options : {
+					advanced : true,
+					aggressiveMerging : true,
+					compatibility : 'ie7',
+					debug : false,
+					keepBreaks : true,
+					keepSpecialComments : '*',
+					mediaMerging : true,
+					processImport : true,
+					processImportFrom : ['all'],
+					roundingPrecision : -1
+				},
+				files: [{
+					expand: true,
+					cwd: 'source/assets/c',
+					src: ['style-lte8.css'],
+					dest: 'source/assets/c',
+					ext: '.min.css'
+				}]
+			}
+		},
+
+
 		// grunt sass config
 		sass: {
 			options : {
-				sourceMap: true
+				indentType : 'tab',
+				indentWidth : 1,
+				outputStyle : 'expanded',
+				sourceMap   : true
 			},
 			dist: {
 				files: {
@@ -53,7 +118,7 @@ module.exports = function(grunt) {
 			},
 			assets : {
 				files: ['source/**/*'],
-				tasks: ['sass', 'shell:patternlab'],
+				tasks: ['css', 'shell:patternlab'],
 				options: {
 					spawn: false
 				}
@@ -62,14 +127,23 @@ module.exports = function(grunt) {
 	});
 
 	// Plugins
+	grunt.loadNpmTasks('grunt-csscomb');
 	grunt.loadNpmTasks('grunt-contrib-copy');
+	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-shell');
 	grunt.loadNpmTasks('grunt-sass');
 
 	// Tasks
-	grunt.registerTask('build', ['sass', 'shell:patternlab']);
+	grunt.registerTask( 'css', [
+		'sass',
+		'cssmin',
+		'csscomb'
+	] );
+
+
+	grunt.registerTask('build', ['css', 'shell:patternlab']);
 	grunt.registerTask('default', ['build','watch']);
 	grunt.registerTask('precommit', ['jshint', 'build']);
 };
